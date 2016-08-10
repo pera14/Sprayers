@@ -1,36 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head><title>Prskalice</title>
-<script type="text/javascript" src="spreyers.js"></script>
-<style>
-.button {
-    display: inline-block;
-    position: relative;
-    margin: 10px;
-    padding: 0 20px;
-    text-align: center;
-    text-decoration: none;
-    font: bold 12px/25px Arial, sans-serif;
-}
-.green {
-    color: #3e5706;
-    background: #a5cd4e;
-}
-.blue {
-    color: #19667d;
-    background: #70c9e3;
-}
-.gray {
-    color: #515151;
-    background: #d3d3d3;
-}
-</style>
-</head>
-<body onload="init()">
-	<center>
-	<canvas id="canvas" width="600" height="600"></canvas><br>
-	<div id="map-canvas"></div>
-	<input type="button"class="button gray "value="Prikazi" id="dugme1" onclick="uradi1();">
-	</center>
-</body>
+	<head><title>Prskalice</title>
+		<script type="text/javascript" src="spreyers.js"></script>
+		<link rel="stylesheet" href="sprayers.css">
+	</head>
+	<body onload="init()">
+		<center>
+			<canvas id="canvas" width="600" height="600"></canvas><br>
+			<div id="map-canvas"></div>
+			<input type="button"class="button gray "value="Prikazi" id="dugme1" onclick="uradi1();">
+		</center>
+	</body>
 </html>
