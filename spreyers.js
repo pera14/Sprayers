@@ -36,7 +36,7 @@ function onMousemove(e){
 	
 	currPosition = {'x': x, 'y':y};
 	draw();
-}
+}//
 
 function crtajPoligone(ctx){
 	if(poligoni.length !=0){
